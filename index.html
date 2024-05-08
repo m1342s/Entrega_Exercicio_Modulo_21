@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indiana Jones</title>
+    <link rel="stylesheet" href="./dist/css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__logo">
+        <img src="./src/assets/Indiana_Jones_logo.png" alt="Logo" />
+        </h1>
+        <div>
+        <input class="header__input" type="text" placeholder="Pesquise o filme..." />
+        <button class="header__button" type="submit">Pesquisar!</button>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav__menu">
+            <li class="header__nav__menu__item">
+              <a class="header__nav__menu__item__link" href="#">Home</a>
+            </li>
+            <li class="header__nav__menu__item">
+              <a class="header__nav__menu__item__link" href="#">Filmes</a>
+            </li>
+            <li class="header__nav__menu__item">
+                <a class="header__nav__menu__item__link" href="#">Jogos</a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+        <h2 class="hero__title">Lorem ipsum dolore</h2>
+        <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+          Deleniti, delectus expedita ducimus quia dicta atque. Ad maxime aspernatur dic</p>
+    </section>
+    <section class="media">
+      <div class="media__div">
+      <nav class="media__tabs">
+        <button class="media__tabs__button" data-tab-button="filmes">Filmes</button>
+        <button class="media__tabs__button" data-tab-button="games">Games</button>
+      </nav>
+    </div>
+      <ul class="media__movies media__list" data-tab-id="filmes">
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/lost_ark.jpg" alt="Os caçadores da arca perdida">
+          <h3 class="media__list__item__title">Indiana Jones e os Caçadores da Arca Perdida(1981)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/temple_doom.jpg" alt="O templo do destino">
+          <h3 class="media__list__item__title">Indiana Jones e o Templo da Perdição(1984)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/last_cruzade.jpg" alt='Última cruzada'>
+          <h3 class="media__list__item__title">Indiana Jones e e a Última Cruzada(1989)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/skull_kingdom.jpg" alt="Reino da Caveira de Cristal">
+          <h3 class="media__list__item__title">Indiana Jones e o Reino da Caveira de Cristal(2008)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/dial_destiny.jpg" alt="Reino da Caveira de Cristal">
+          <h3 class="media__list__item__title">Indiana Jones e o Chamado do Destino(2023)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+      </ul>
+      <ul class="media__games media__list" data-tab-id="games">
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/lost_ark_atari.jpg" alt="Jogo Arca Perdida">
+          <h3 class="media__list__item__title">Indiana Jones e os Caçadores da Arca Perdida(1982)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/last_cruzade_game.jpg" alt="Jogo Última cruzada">
+          <h3 class="media__list__item__title">Indiana Jones e a Last Crusade: a Aventura Gráfica(1989)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/fate_of_atlantis.jpg" alt="Jogo destino de Atlantis">
+          <h3 class="media__list__item__title">Indiana Jones e o Destino de Atlantis (1992)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/fate_of_atlantis.jpg" alt="Jogo maiores aventuras">
+          <h3 class="media__list__item__title">Indiana Jones e suas maiores Aventuras(1994)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+        <li class="media__list__item">
+          <img class="media__list__item__img" src="./src/assets/emperor_tomb.jpg" alt="Jogo Tumba do imperador">
+          <h3 class="media__list__item__title">Indiana Jones e a tumba do imperador (2003)</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod aliquam non maiores sit temporibus </p>
+          <button class="media__list__item__button" type="submit">Saiba mais</button>
+        </li>
+      </ul>
+    </section>
+    <script src="./src/scripts/main.js"></script>
+  </body>
+</html>

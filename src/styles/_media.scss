@@ -1,0 +1,71 @@
+@use 'variaveis';
+
+.media{
+    margin-top: 30px;
+    &__div{
+        display: flex;
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 28px;
+       }
+    &__tabs{
+        display: flex;
+        gap: 30px;
+        &__button{
+            font-size: 24px;
+            color: variaveis.$mainColor;
+            border: none;
+            background-color:variaveis.$bgBody;
+            
+            &--is-active{
+                border-bottom: 3px solid variaveis.$mainColor;
+            }
+        }
+    }
+    &__movies{
+        display: none;
+    }
+    &__games{
+        display: none;
+    }
+    &__list--is-active{
+        max-width: 1024px;
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+    }
+    &__list__item{
+        display: flex;
+        gap:10px;
+        flex-direction: column;
+        align-items: center;
+       list-style: none;
+       height: 670px;
+       width:300px;
+       border: 1px solid variaveis.$mainColor;
+       &__img{
+          width: 100%;
+       }
+       &__title{
+        text-align: center;
+        color: variaveis.$mainColor;
+       }
+       &__button{
+        height:40px;
+        width: 100px;
+        border-radius: 8px;
+         background-color: variaveis.$bgHeader;
+         color: variaveis.$mainColor;
+         border: 1px solid white;
+         padding-left: 5px;
+         padding-right: 5px;
+         justify-content: center;
+       }
+    }
+    }

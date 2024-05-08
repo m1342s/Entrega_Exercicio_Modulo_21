@@ -1,0 +1,49 @@
+@use 'variaveis';
+
+.header {
+  background-color: rgb(0, 0, 0);
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__logo {
+
+    img {
+      width: 230px;
+    }
+  }
+  &__input{
+    width:300px;
+    height:30px;
+    border-radius: 8px;
+    color: variaveis.$mainColor;
+    border: none;
+  }
+  &__button{
+    height:30px;
+    border-radius: 8px;
+     background-color: variaveis.$bgHeader;
+     color: variaveis.$mainColor;
+     border: 1px solid white;
+     padding-left: 5px;
+     padding-right: 5px;
+     
+
+     cursor: pointer;
+  }
+  &__nav{
+    &__menu{
+      display: flex;
+      gap: 10px;
+      &__item{
+        list-style: none;
+        &__link{
+        color:variaveis.$mainColor;
+        font-weight: bold;
+        text-decoration: none;
+        }
+      }
+    }
+  }
+}
